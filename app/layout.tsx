@@ -29,14 +29,14 @@ const mono = JetBrains_Mono({
 
 const title = `${profile.name} — ${profile.role}`;
 const description =
-  "Full stack developer with five years across fintech, edtech and sports. Lately building conversational AI — RAG pipelines, LLM agents and multilingual voice assistants.";
+  "Mayur Kale — Full Stack Developer in Mumbai. Explore web applications built with React, Next.js and Node.js, with experience in cloud and AI integrations.";
 
 export const metadata: Metadata = {
   title: { default: title, template: `%s — ${profile.name}` },
   description,
   keywords: [
     "Mayur Kale", "Full Stack Developer", "React", "Next.js", "Node.js",
-    "RAG", "LLM", "Generative AI", "Mumbai",
+    "TypeScript", "Web Applications", "API Integration", "Mumbai",
   ],
   authors: [{ name: profile.name }],
   openGraph: {

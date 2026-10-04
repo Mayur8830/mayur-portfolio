@@ -23,7 +23,7 @@ export default function Hero() {
         <div>
           <motion.span className="hero__badge" {...rise(0.2)}>
             <span className="pulse" aria-hidden="true" />
-            {profile.location} · Open to work
+            {profile.location} · Full Stack Developer
           </motion.span>
 
           <SplitText
@@ -32,23 +32,22 @@ export default function Hero() {
             delay={0.28}
             stagger={0.052}
             segments={[
-              { text: "I build software that" },
-              { text: "ships", className: "grad" },
-              { text: "and stays running." },
+              { text: "I build web applications" },
+              { text: "from idea", className: "grad" },
+              { text: "to production." },
             ]}
           />
 
           <motion.p className="hero__lede" {...rise(0.62)}>
-            Full stack developer with five years across fintech, edtech and sports.
-            Lately I build conversational AI — most recently a multilingual voice
-            assistant that turns a company&rsquo;s product documentation into
-            something employees can actually talk to.
+            I’m Mayur, a full stack developer working with React, Next.js and Node.js.
+            I build web applications across frontend, backend and cloud, with
+            experience in AI and voice integrations.
           </motion.p>
 
           <motion.div className="hero__cta" {...rise(0.72)}>
             <Magnetic strength={0.3}>
               <a className="btn btn--solid" href="#work" data-cursor="link">
-                See the work
+                View my work
                 <IconArrow />
               </a>
             </Magnetic>
@@ -86,8 +85,8 @@ export default function Hero() {
                 <Image
                   src={profile.portrait}
                   alt={`Portrait of ${profile.name}`}
-                  width={488}
-                  height={610}
+                  width={1372}
+                  height={1296}
                   priority
                   sizes="(max-width: 940px) 90vw, 420px"
                 />

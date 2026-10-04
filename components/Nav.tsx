@@ -9,7 +9,7 @@ const LINKS = [
   { id: "work", label: "Work" },
   { id: "skills", label: "Skills" },
   { id: "experience", label: "Experience" },
-  { id: "about", label: "About" },
+  { id: "contact", label: "Contact" },
 ];
 
 export default function Nav({ initials, cta }: { initials: string; cta: string }) {
@@ -25,7 +25,7 @@ export default function Nav({ initials, cta }: { initials: string; cta: string }
 
   // Active link = the last section whose top has passed the nav.
   useEffect(() => {
-    const sections = [...LINKS.map((l) => l.id), "contact"]
+    const sections = LINKS.map((l) => l.id)
       .map((id) => document.getElementById(id))
       .filter((el): el is HTMLElement => Boolean(el));
     if (!sections.length) return;

@@ -13,7 +13,6 @@ const contactLinks = [
   { k: "LinkedIn", v: profile.linkedin.replace("https://", ""), href: profile.linkedin, ext: true },
   { k: "GitHub", v: profile.github.replace("https://", ""), href: profile.github, ext: true },
   { k: "Resume", v: "View my resume", href: profile.resume, ext: true },
-  { k: "Phone", v: profile.phone, href: `tel:${profile.phone.replace(/\s/g, "")}`, ext: false },
 ];
 
 export default function Home() {

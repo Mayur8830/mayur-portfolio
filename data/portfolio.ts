@@ -5,7 +5,6 @@ export const profile = {
   focus: "React · Next.js · Node.js",
   location: "Mumbai, India",
   email: "mayurkale2207@gmail.com",
-  phone: "+91 90969 45267",
   // TODO: replace with your real handles
   linkedin: "https://linkedin.com/in/mayurkale",
   github: "https://github.com/mayurkale",
